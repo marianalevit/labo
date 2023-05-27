@@ -24,7 +24,7 @@ PARAM$experimento  <- "ZZ7990_1"
 PARAM$exp_input  <- "HT7510_1"
 
 #Atencion, que cada modelos se procesa con 5 semillas, ajuste a SUS necesidades
-PARAM$modelos_rank  <- c( 103, 226, 122, 227, 184, 171, 131, 106, 140, 236 )  #Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
+PARAM$modelos_rank  <- c( 57, 58, 59, 60, 63, 71, 73, 74, 77, 78 )  #Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
 PARAM$semillerio  <- 50   # cantidad de semillas a utilizar en el semillerio, podrian ser 50 o 100 para mayor estabilidad
 PARAM$semilla_primos  <- 379867  # se utiliza para generar el vector de  PARAM$semillerio  semillas
 
