@@ -56,8 +56,8 @@ PARAM$RandomForest$min.node.size  <- 1000
 PARAM$RandomForest$mtry  <- 40
 PARAM$RandomForest$semilla  <- 379867    # cambiar por la propia semilla
 
-PARAM$CanaritosAsesinos$ratio  <- 0.3        #varia de 0.0 a 2.0, si es 0.0 NO se activan
-PARAM$CanaritosAsesinos$desvios  <- 7.0      #desvios estandar de la media, para el cutoff
+PARAM$CanaritosAsesinos$ratio  <- 0.0        #varia de 0.0 a 2.0, si es 0.0 NO se activan
+PARAM$CanaritosAsesinos$desvios  <- 4.0      #desvios estandar de la media, para el cutoff
 PARAM$CanaritosAsesinos$semilla  <- 379867   # cambiar por la propia semilla
 
 PARAM$home  <- "~/buckets/b1/"
